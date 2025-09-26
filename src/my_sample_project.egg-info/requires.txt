@@ -1,0 +1,6 @@
+numpy>=1.26
+matplotlib>=3.8
+pandas>=2.0
+pytest>=8.0
+seaborn
+requests

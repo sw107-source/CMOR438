@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+src/my_sample_project.egg-info/PKG-INFO
+src/my_sample_project.egg-info/SOURCES.txt
+src/my_sample_project.egg-info/dependency_links.txt
+src/my_sample_project.egg-info/requires.txt
+src/my_sample_project.egg-info/top_level.txt
+src/rice_ml/__init__.py
+src/rice_ml/basic_functions.py
