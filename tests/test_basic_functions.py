@@ -1,4 +1,4 @@
-from rice_ml.basic functions import add
+from rice_ml.basic_functions import add
 def test_add():
     assert add(2, 3) == 5
     assert add(-1, 1) == 0
