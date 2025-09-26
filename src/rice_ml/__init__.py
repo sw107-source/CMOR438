@@ -1,1 +1,2 @@
-from src.rice_ml.basic_functions import *
+__all__ = ["add"]
+from rice_ml.basic_functions import add
