@@ -75,5 +75,5 @@ These evaluations help determine whether KNN regression provides useful predicti
 
 ## Files Included
 
-- `KNN_Classifier.ipynb`: KNN model implementation
+- `KNN.ipynb`: KNN model implementation
 - `README.md`: This documentation file
