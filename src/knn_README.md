@@ -43,11 +43,13 @@ Let:
 - \( x \in \mathbb{R}^n \): new input vector  
 - \( D = \{(x_1, y_1), (x_2, y_2), \dots, (x_m, y_m)\} \): training dataset  
 
+- $x \in \mathbb{R}^n$: new input vector  
+- $D = \{(x_1, y_1), (x_2, y_2), ..., (x_m, y_m)\}$: training dataset  
+
 **Distance metric (Euclidean):**
 
-\[
-d(x, x_i) = \sqrt{\sum_{j=1}^{n} (x_j - x_{ij})^2}
-\]
+$d(x, x_i) = \sqrt{ \sum_{j=1}^{n} (x_j - x_{ij})^2 }$
+- Select the k smallest distances and assign the class by majority vote or mean of k neighbors
 
 Steps:
 
