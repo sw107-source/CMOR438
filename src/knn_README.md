@@ -38,10 +38,7 @@ A visual illustration of how KNN works for classification and regression:
 
 ## Mathematical Description
 
-Let:
-
-- \( x \in \mathbb{R}^n \): new input vector  
-- \( D = \{(x_1, y_1), (x_2, y_2), \dots, (x_m, y_m)\} \): training dataset  
+Let: 
 
 - $x \in \mathbb{R}^n$: new input vector  
 - $D = \{(x_1, y_1), (x_2, y_2), ..., (x_m, y_m)\}$: training dataset  
@@ -53,7 +50,7 @@ $d(x, x_i) = \sqrt{ \sum_{j=1}^{n} (x_j - x_{ij})^2 }$
 
 Steps:
 
-1. Compute \( d(x, x_i) \) for all training points \( x_i \).
+1. Compute $d(x, x_i)$ for all training points $x_i$.
 2. Select the `k` points with the smallest distances.
 3. For:
    - **Classification:** assign the class by majority vote among the `k` neighbors.  
@@ -69,7 +66,7 @@ For the KNN **regression** task (predicting secondary school completion rates), 
   - Mean Squared Error (MSE)
   - Mean Absolute Error (MAE)
 - **Goodness of fit**
-  - \( R^2 \) (coefficient of determination)
+  - \ R^2 \ (coefficient of determination)
 - **Visual diagnostics**
   - Plots of **actual vs. predicted** values to assess how closely predictions match observed data
 
