@@ -66,7 +66,7 @@ For the KNN **regression** task (predicting secondary school completion rates), 
   - Mean Squared Error (MSE)
   - Mean Absolute Error (MAE)
 - **Goodness of fit**
-  - \ R^2 \ (coefficient of determination)
+  - $ R^2 $ (coefficient of determination)
 - **Visual diagnostics**
   - Plots of **actual vs. predicted** values to assess how closely predictions match observed data
 
